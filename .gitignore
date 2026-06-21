@@ -24,3 +24,13 @@ mlartifacts/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Placeholder files (not needed - folders tracked via content)
+.gitkeep
+screenshots/.gitkeep
+
+reports/images/
+build_report_pdf.py
+experiment_report.md
+generate_report_figures.py
+

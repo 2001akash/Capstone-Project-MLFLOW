@@ -81,24 +81,6 @@ pip install -r requirements.txt
 - Model Registry (`@challenger` → copy to prod → `@champion`)
 - Production inference on the held-out test set
 
-## Submission checklist
-
-| Item | Location |
-|------|----------|
-| Jupyter notebook | `notebooks/anomaly_detection_mlflow.ipynb` |
-| Experiment report (PDF) | `reports/experiment_report.pdf` |
-| Report source + charts | `reports/experiment_report.md`, `reports/images/` |
-| MLflow UI screenshots (5) | `screenshots/` |
-| Screencast video | Include in repository |
-
-### Regenerate the PDF (after adding MLflow screenshots)
-
-```powershell
-python reports/generate_report_figures.py
-python reports/build_report_pdf.py
-```
-
-Replace `[Your Name]` in the report before submitting.
 
 ## Screenshots
 
