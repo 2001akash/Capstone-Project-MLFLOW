@@ -18,19 +18,20 @@ mlruns/
 mlartifacts/
 .mlflow/
 
-# IDE settings (optional local config)
+# IDE settings
 .vscode/
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Placeholder files (not needed - folders tracked via content)
+# Placeholder files
 .gitkeep
-screenshots/.gitkeep
 
+# Report: commit PDF only (not build scripts or chart images)
+reports/build_report_pdf.py
+reports/generate_report_figures.py
+reports/experiment_report.md
 reports/images/
-build_report_pdf.py
-experiment_report.md
-generate_report_figures.py
 
+# Keep reports/*.pdf tracked for submission
