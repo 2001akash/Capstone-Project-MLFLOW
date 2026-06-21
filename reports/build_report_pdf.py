@@ -128,7 +128,7 @@ def build_pdf():
     pdf.ln(20)
     pdf.set_font("Helvetica", "", 10)
     for line in [
-        "Author: [Your Name]",
+        "Author: Akash Deep",
         "Date: June 2026",
         "Dataset: Local binary image dataset (data/dataset/no, data/dataset/yes)",
         "MLflow Experiment: anomaly-detection",

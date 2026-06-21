@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Author** | [Your Name] |
+| **Author** | Akash Deep |
 | **Date** | June 2026 |
 | **Dataset** | Local binary image dataset (`data/dataset/no/`, `data/dataset/yes/`) |
 | **MLflow Experiment** | `anomaly-detection` |
