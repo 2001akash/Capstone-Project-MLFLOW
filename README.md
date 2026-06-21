@@ -91,3 +91,9 @@ Save these MLflow UI snapshots as `.png` files in `screenshots/`:
 3. Best run detail (params, metrics, artifact)
 4. Model registry with `@challenger` alias
 5. Production model `anomaly-detection-prod` with `@champion` alias
+
+## Screencast Video
+
+Walkthrough of the repository structure, notebook sections, and MLflow UI (experiments, metrics comparison, and model registry):
+
+**[Watch screencast on Loom](https://www.loom.com/share/23c139a37ce54f9fac7967010d463e63)**
