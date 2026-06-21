@@ -1,2 +1,26 @@
+# Python virtual environment
 venv/
+venv_broken/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment secrets
 .env
+
+# MLflow local tracking (large - do not commit)
+mlruns/
+mlartifacts/
+.mlflow/
+
+# IDE settings (optional local config)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
